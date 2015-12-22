@@ -1,6 +1,6 @@
 CC      = g++
-CFLAGS  = `pkg-config --cflags gstreamer-1.0 gstreamer-base-1.0`
-LDFLAGS = `pkg-config --libs gstreamer-1.0 gstreamer-base-1.0`
+CFLAGS  = `pkg-config --cflags gstreamer-base-1.0`
+LDFLAGS = `pkg-config --libs gstreamer-base-1.0`
 
 SRCFILES = $(wildcard *.cpp)
 
