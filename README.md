@@ -41,3 +41,13 @@ $ make
 ##Running
 
 To run this example, simply launch xtionstreamserver first in a terminal, then launch xtionstreamclient in another terminal
+
+##Integration
+
+To integrate this library into an existing software, just extends the class IXtionStreamClient and set it as a XtionStreamClient instance listener, like in main.cpp
+
+*Note: XtionStreamClient.run() is launching GStreamer pipeline loop, so it's a blocking function*
+
+##Architecture
+
+![alt text](https://raw.githubusercontent.com/awabot-dev/embedded-world-demo/9e0033d06d81425a216e2430386bfe7b87181818/doc/Embedded-world-architecture.png "Architecture")
