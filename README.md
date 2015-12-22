@@ -50,4 +50,4 @@ To integrate this library into an existing software, just extends the class IXti
 
 ##Architecture
 
-![alt text](https://raw.githubusercontent.com/awabot-dev/embedded-world-demo/9e0033d06d81425a216e2430386bfe7b87181818/doc/Embedded-world-architecture.png "Architecture")
+![alt text](https://raw.githubusercontent.com/awabot-dev/embedded-world-demo/master/doc/Embedded-world-architecture.png "Architecture")
